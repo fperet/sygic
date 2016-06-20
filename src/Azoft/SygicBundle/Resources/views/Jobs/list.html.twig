@@ -1,0 +1,11 @@
+{% for job in jobs %}
+    {{ job.id }} : {{ job.name }}
+    <br  />
+    Tasks:
+        <br  />
+        {% for task in job.tasks %}
+            {{ task.id }} : {{ task.name }}<br  />
+        {% endfor %}
+    <br  />
+    <br  />
+{% endfor %}

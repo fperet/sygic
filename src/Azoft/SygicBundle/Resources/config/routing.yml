@@ -1,0 +1,11 @@
+azoft_sygic_homepage:
+    path:     /
+    defaults: { _controller: AzoftSygicBundle:Default:index }
+
+azoft_sygic_jobs_list:
+    path:     /jobs_list
+    defaults: { _controller: AzoftSygicBundle:Default:jobsList }
+
+azoft_sygic_create_test_job:
+    path:     /create_test_job
+    defaults: { _controller: AzoftSygicBundle:Default:createJobTemplate }
